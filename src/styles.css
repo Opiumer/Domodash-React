@@ -1,0 +1,53 @@
+html,
+body,
+div#root,
+div.app {
+  height: 100%;
+}
+
+body {
+  background-color: black !important;
+}
+
+.dark {
+  font-family: sans-serif;
+  background-color: #343a40;
+  color: white;
+}
+
+.light {
+  font-family: sans-serif;
+  background-color: white;
+  color: #343a40;
+}
+
+.smartmiror {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.epaper {
+  font-family: sans-serif;
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+  position: relative;
+  height: 50px;
+  border: 0px;
+  /*background-color: green;*/
+}
+
+.sectionRow {
+  position: absolute;
+  margin-top: 100px;
+  height: 25px;
+  /*background-color: red;*/
+}
+
+.sectionName {
+  position: absolute;
+  left: 40px;
+}
